@@ -9,11 +9,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="E:\WebDevelopment\Jq.js"></script>
+    <script src="sc.js"></script>
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav class="stickty">
             <div class="left">
                 <!-- <img src="IITJMU1.png" style="width:140px"> -->
             </div>
@@ -32,8 +34,8 @@
 
     <main>
         <section style="height: 450px;background-color: #ffe100;">
-            <div class="firstSection">
-                <img src="hero-image.jpeg" style="width: 100%;margin-top:50px;" id="0">
+            <div class="firstSection st">
+                <img src="hero-image.jpeg" style="width: 100%;" id="0">
                 <div class="leftSection">
                     Portable molecular diagnostics for on site <span class="purple">Water</span>
                     quality monitoring
@@ -51,7 +53,7 @@
             </div> -->
             </div>
         </section>
-        <section style="height: 320px; background-color: #57adbf;margin-top: 7vh;" id="1">
+        <section style="height: 320px; background-color: #57adbf;" id="1">
             <div class="row1">
                 <div class="column1">
                     <h2>About</h2>
@@ -123,65 +125,12 @@
                 Addis Ababa, Ethiopia</h2>
         </div> -->
 
-        <section class="aboutiitj" style="height: 700px; background-color: #e0eff1;">
-            <h2 style="    font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 24px;
-            text-align: center;
-            color: #2b2e63;">About- Motivation,Beneficiaries, Stakeholders</h2>
-
-
-
-
-
-
-            <div class="containert">
-
-                <p style="    font-family: 'Poppins', sans-serif;
-                margin: 0;
-                color: black;
-                padding: 19px 137px 19px 140px;">Monitoring water quality of water bodies is crucial to certify its
-                    usage and maintain a healthy ecosystem. It can be used to certify the quality of discharge from
-                    wastewater treatment plants, industrial affluents, and commercial affluents including hospitals and
-                    households. In the region of Jammu and Kashmir, there are over a dozen rivers which are source of
-                    irrigation, fishing and drinking water for a large part of the society. According to report
-                    published in 2022 by National Water Monitoring Program (NWMP), established by the Central Pollution
-                    Control Board (CPCB), shows that 8 river stretches/locations have been identified as polluted based
-                    on Biological Oxygen Demand (BOD) measurements. High BOD levels in water bodies can indicate the
-                    presence of pollutants such as sewage, industrial waste, or excessive nutrients. These pollutants
-                    can deplete the oxygen levels in water, causing harm to aquatic organisms and disrupting the
-                    ecosystem.</p>
-                <p style="    font-family: 'Poppins', sans-serif;
-                    margin: 0;
-                    color: black;
-                    padding: 19px 137px 19px 140px;">A major limitation of such a report is that it is based on a
-                    single metric, in this case, the BOD.
-                    Microbial diagnostics and water chemistry was not performed to look at other sources of pollutants
-                    and harmful pathogens present in water. Microbial profiling through metagenomics can help in source
-                    tracking and monitoring rising antimicrobial resistance (AMR) and can help manage and prevent
-                    potential health outbreaks as was the case with COVID. Molecular profiling can help state water
-                    bodies, government agencies and policymakers diversify their approach towards wastewater treatment
-                    through novel state-of-the-art methods. It can help in monitoring the usage fertilizers in
-                    agriculture, antibiotics in the society to prevent rise in AMR and soundly plan the placements of
-                    treatment plants at locations of severe pollution. Molecular diagnostics workshop aims to introduce
-                    and explore this process, for the first time, in the state of Jammu and Kashmir. It will help train
-                    manpower that can perform wet lab experiments including water chemistry, extraction of DNA material,
-                    PCR, genome sequencing and bioinformatics analysis. This workshop will pave path to establish a
-                    molecular diagnostics laboratory at IIT Jammu that will further the process and aim to develop novel
-                    methods of molecular bioinformatics and AMR surveillance in order to help the state of Jammu and
-                    Kashmir to form policies backed by data-analysis to improve the quality of water bodies across the
-                    state.</p>
-            </div>
-
-        </section>
-
-        <section class="deaths"
-            style="height: 80px;color: white; font-size: 3rem; text-align: center;padding: 47px 0px;">
+        <section class="deaths" style="height: 80px;color: white; font-size: 3rem; text-align: center;padding: 47px 0px;">
             <div class="deaths">6M+ deaths worldwide due to microbial infections</div>
         </section>
 
-        <section class="labinasuitcase" style="height: 1090px;background-color: white;">
-            <img src="LabInAKit.png" style="width: 100%;height: 800px;">
+        <section class="labinasuitcase" style="height: 950px;background-color: white;">
+            <img src="LabInAKit.png" style="width: 100%;height: 700px;">
             <div class="suitcase">
                 <!-- <div style="font-family: 'Poppins';color: #000000;text-align: center;font-size: 3rem;">Lab in a suitcase</div> -->
                 <h1 style="text-align: center;color: #021a41;padding: 20px;">Lab in a suitcase</h1>
@@ -189,17 +138,7 @@
 
             <div class="container9">
 
-                <p style="    font-family: 'Poppins', sans-serif;
-                margin: 0;
-                color: black;
-                ">There are two scenarios that will be realized during the workshop and
-                    both of them will cover the entire workflow as shown in Fig. 1. First scenario involves bringing the
-                    samples collected from different sites back to the laboratory while in the second scenario, we
-                    perform the entire workflow on-site using the envisaged lab-in-a-suitcase. This kit was designed and
-                    assembled by Prof. David Werner and his group at Newcastle University. One day of this workshop will
-                    include on-site visit with the proposed kit and conducting the entire workflow in-situ. </p>
-
-                <!-- <div class="columns8">
+                <div class="columns8">
                     <div class="column01">
                         <ul>
                             <li>Filtration unit and pump</li>
@@ -221,7 +160,7 @@
                             <li>Q qPCR machine</li>
                         </ul>
                     </div>
-                </div> -->
+                </div>
             </div>
 
         </section>
@@ -657,12 +596,7 @@
                             <h3>Sidhart Malhotra</h3>
                             Assistant Professor Computer Science and Engineering <br>
                             IIT Jammu
-                            <p>He completed his B.Tech in Electronics and Electrical Engineering at IIT Guwahati in
-                                2013. He joined Newcastle University as a PhD student in 2016. After completion of his
-                                PhD in 2021, he worked as Research Associate at Newcastle University till June 2023. He
-                                is looking towards solving real-world challenges such as improving water quality through
-                                molecular diagnostics that includes genome analysis and antimicrobial resistance
-                                surveillance. </p>
+                            <p>He completed his B.Tech in Electronics and Electrical Engineering at IIT Guwahati in 2013. He joined Newcastle University as a PhD student in 2016. After completion of his PhD in 2021, he worked as Research Associate at Newcastle University till June 2023. He is looking towards solving real-world challenges such as improving water quality through molecular diagnostics that includes genome analysis and antimicrobial resistance surveillance. </p>
                         </div>
                     </div>
 
@@ -673,11 +607,7 @@
                             <h3>David Werner</h3>
                             Professor of environmental system modelling<br>
                             Newcastle University, UK
-                            <p>He earned his PhD in Environmental Sciences at EPFL in Switzerland. His research group
-                                works towards ubiquitous genetics in water, sanitation, and hygiene (WASH) to achieve
-                                the United Nation’s Sustainable Development Goal 6: Clean water and sanitation for all.
-                                This includes the co-development and testing of a suitcase laboratory for molecular
-                                microbiology with colleagues in Africa, South America, and South Asia.
+                            <p>He earned his PhD in Environmental Sciences at EPFL in Switzerland. His research group works towards ubiquitous genetics in water, sanitation, and hygiene (WASH) to achieve the United Nation’s Sustainable Development Goal 6: Clean water and sanitation for all. This includes the co-development and testing of a suitcase laboratory for molecular microbiology with colleagues in Africa, South America, and South Asia. 
                             </p>
                         </div>
                     </div>
@@ -688,15 +618,12 @@
                             <h3>Dr. Rixia Zan </h3>
                             Research Associate in Molecular Microbiology <br>
                             Newcastle University
-                            <p> She obtained her Bachelors degree in Environment Engineering from Tianjin Chengjian
-                                University in 2015. She completed her M.Sc. and PhD in Evironmental Engineering from
-                                Newcastle University between 2015 to 2023. During her PhD she developed and evaluated
-                                pilot-scale pollution attenuation permeable pavements for stormwater management.
-                                Currently, she is analyzing water quality through molecular microbiology with Prof.
-                                David Werner. </p>
+                            <p> She obtained her Bachelors degree in Environment Engineering from Tianjin Chengjian University in 2015. She completed her M.Sc. and PhD in Evironmental Engineering from Newcastle University between 2015 to 2023. During her PhD she developed and evaluated pilot-scale pollution attenuation permeable pavements for stormwater management. Currently, she is analyzing water quality through molecular microbiology with Prof. David Werner. </p>
                         </div>
                     </div>
+                
                 </div>
+
             </div>
         </section>
 
