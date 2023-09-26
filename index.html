@@ -9,13 +9,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="Jq.js"></script>
-    <script src="script.js"></script>
 </head>
 
 <body>
     <header>
-       <nav class="stickty"> 
+        <nav>
             <div class="left">
                 <!-- <img src="IITJMU1.png" style="width:140px"> -->
             </div>
@@ -26,19 +24,19 @@
                     <li><a href="#5">Speakers</a></li>
                     <li><a href="#4">Schedule</a></li>
                     <li><a href="#3">Sponsors</a></li>
-                    <li><a href="/">Contact</a></li>
+                    <li><a href="#7">Contact</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
     <main>
-        <section style="height: 450px;background-color: #ffe100;">
-            <div class="firstSection">
-                <img src="hero-image.jpeg" style="width: 100%;" id="0">
+        <section style="height: auto;">
+            <div class="firstSection" style="height: auto;width: auto;">
+                <img src="Water-Sampling-scaled.jpg" style="width: 100%;margin-top:60px;height:100vh;" id="0">
                 <div class="leftSection">
-                    Portable molecular diagnostics for on site <span class="purple">Water</span>
-                    quality monitoring
+                    Portable molecular diagnostics workshop for on site <span class="purple">Water</span>
+                    quality monitoring<br>
 
 
 
@@ -53,15 +51,18 @@
             </div> -->
             </div>
         </section>
-        <section style="height: 320px; background-color: #57adbf;" id="1">
+        <section style="height: 42vh; background-color: #57adbf;width: 100%;" id="1">
             <div class="row1">
                 <div class="column1">
                     <h2>About</h2>
-                    <p class="g1">Join us at IIT Jammu from January 22nd to January 26th, 2023, for an innovative
-                        workshop on "Portable Molecular Diagnostics for On-Site Microbial Water Quality Monitoring."
-                        Explore the cutting-edge technology of a highly portable laboratory in a suitcase, designed to
-                        sequence microbes from water samples, pioneering the revolution in antibiotic resistance
-                        prevention research.</p>
+                    <p class="g1" style="text-align: justify;">Join us at IIT Jammu from January 22nd to 26th, 2023, for
+                        an innovative workshop on "Portable Molecular Diagnostics for On-Site Microbial Water Quality
+                        Monitoring." Explore the cutting-edge technology of a highly portable laboratory in a suitcase,
+                        designed to sequence microbes from water samples, pioneering the revolution in antimicrobial
+                        resistance (AMR) surveillance. This workshop aims to provide a hands-on experience of
+                        comprehensive microbial hazard screening and characterization of river water, wastewater, and
+                        treated water using 16S rRNA gene sequencing.
+                    </p>
                 </div>
 
                 <div class="column2">
@@ -91,7 +92,7 @@
 
                     <script>
                         // Set the date and time for your countdown
-                        const countdownDate = new Date("2023-12-31T23:59:59").getTime();
+                        const countdownDate = new Date("2024-01-22T23:59:59").getTime();
 
                         // Update the countdown every second
                         const x = setInterval(function () {
@@ -125,12 +126,18 @@
                 Addis Ababa, Ethiopia</h2>
         </div> -->
 
-        <section class="aboutiitj" style="height: 700px; background-color: #e0eff1;">
-            <h2 style="    font-family: 'Poppins', sans-serif;
+        <!-- <section class="deaths"
+            style="height: 23vh;color: white; font-size: 3rem; text-align: center;padding: 47px 0px;">
+            <div class="deaths">6M+ deaths worldwide due to microbial infections</div>
+        </section> -->
+
+        <section class="aboutiitj" style="height: 970px; background-color: #e0eff1;">
+            <h1 style="    font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 24px;
             text-align: center;
-            color: #2b2e63;">About- Motivation,Beneficiaries, Stakeholders</h2>
+            
+            color: #2b2e63;">Overview</h1>
 
 
 
@@ -142,48 +149,65 @@
                 <p style="    font-family: 'Poppins', sans-serif;
                 margin: 0;
                 color: black;
-                padding: 19px 137px 19px 140px;">Monitoring water quality of water bodies is crucial to certify its
-                    usage and maintain a healthy ecosystem. It can be used to certify the quality of discharge from
-                    wastewater treatment plants, industrial affluents, and commercial affluents including hospitals and
-                    households. In the region of Jammu and Kashmir, there are over a dozen rivers which are source of
-                    irrigation, fishing and drinking water for a large part of the society. According to report
-                    published in 2022 by National Water Monitoring Program (NWMP), established by the Central Pollution
-                    Control Board (CPCB), shows that 8 river stretches/locations have been identified as polluted based
-                    on Biological Oxygen Demand (BOD) measurements. High BOD levels in water bodies can indicate the
-                    presence of pollutants such as sewage, industrial waste, or excessive nutrients. These pollutants
-                    can deplete the oxygen levels in water, causing harm to aquatic organisms and disrupting the
-                    ecosystem.</p>
+                padding: 19px 137px 19px 140px;text-align: justify;"><b>Motivation and challenges: </b>Monitoring water
+                    quality of water bodies is crucial to certify its usage and maintain a healthy ecosystem. It can be
+                    used to certify the quality of discharge from wastewater treatment plants, industrial affluents, and
+                    commercial affluents including hospitals and households. In the region of Jammu and Kashmir, there
+                    are over a dozen rivers which are source of irrigation, fishing and drinking water for a large part
+                    of the society. According to report published in 2022 by National Water Monitoring Program (NWMP),
+                    established by the Central Pollution Control Board (CPCB), shows that 8 river stretches/locations
+                    have been identified as polluted based on Biological Oxygen Demand (BOD) measurements. High BOD
+                    levels in water bodies can indicate the presence of pollutants such as sewage, industrial waste, or
+                    excessive nutrients. These pollutants can deplete the oxygen levels in water, causing harm to
+                    aquatic organisms and disrupting the ecosystem. A major limitation of such a report is that it is
+                    based on a single metric, in this case, the BOD. Microbial diagnostics and water chemistry was not
+                    performed to look at other sources of pollutants, and harmful pathogens.
+                </p>
                 <p style="    font-family: 'Poppins', sans-serif;
                     margin: 0;
                     color: black;
-                    padding: 19px 137px 19px 140px;">A major limitation of such a report is that it is based on a
-                    single metric, in this case, the BOD.
-                    Microbial diagnostics and water chemistry was not performed to look at other sources of pollutants
-                    and harmful pathogens present in water. Microbial profiling through metagenomics can help in source
-                    tracking and monitoring rising antimicrobial resistance (AMR) and can help manage and prevent
-                    potential health outbreaks as was the case with COVID. Molecular profiling can help state water
-                    bodies, government agencies and policymakers diversify their approach towards wastewater treatment
-                    through novel state-of-the-art methods. It can help in monitoring the usage fertilizers in
-                    agriculture, antibiotics in the society to prevent rise in AMR and soundly plan the placements of
-                    treatment plants at locations of severe pollution. Molecular diagnostics workshop aims to introduce
-                    and explore this process, for the first time, in the state of Jammu and Kashmir. It will help train
-                    manpower that can perform wet lab experiments including water chemistry, extraction of DNA material,
-                    PCR, genome sequencing and bioinformatics analysis. This workshop will pave path to establish a
-                    molecular diagnostics laboratory at IIT Jammu that will further the process and aim to develop novel
-                    methods of molecular bioinformatics and AMR surveillance in order to help the state of Jammu and
-                    Kashmir to form policies backed by data-analysis to improve the quality of water bodies across the
-                    state.</p>
+                    padding: 19px 137px 19px 140px;text-align: justify;"><b>Solutions and stakeholders:</b> Microbial
+                    profiling can help in pathogen detection, source tracking, hazard screening through specific
+                    biomarkers, identification of toxins, and monitoring rising antimicrobial resistance (AMR). It can
+                    help manage and prevent potential health outbreaks as was the case with COVID. Water diagnostics can
+                    help state water bodies, government agencies and policymakers assess, diversify and optimize the
+                    effectiveness of their approach towards wastewater treatment through incorporating novel
+                    state-of-the-art methods. It can help in improving rural and urban governance metrics. It can help
+                    in monitoring the usage fertilizers in agriculture, antibiotics in the society to prevent rise in
+                    AMR and soundly plan the placements of treatment plants at locations of severe pollution. Molecular
+                    diagnostics workshop aims to introduce and explore this process, for the first time, in the state of
+                    Jammu and Kashmir. It will help train manpower that can perform wet lab experiments including water
+                    chemistry, extraction of DNA material, PCR, genome sequencing and bioinformatics analysis. This
+                    workshop will pave path to establish a molecular diagnostics laboratory at IIT Jammu that will
+                    further the process and aim to develop novel methods of molecular bioinformatics and AMR
+                    surveillance in order to help the state of Jammu and Kashmir to form policies backed by
+                    data-analysis to improve the quality of water bodies across the state.
+                </p>
             </div>
 
+            <table border="1">
+                <tr>
+                    <th>Waterborne Diseases</th>
+                    <th>Antimicrobial Resistance</th>
+                </tr>
+                <tr>
+                    <td>"Around 3.77 crore Indians are affected by waterborne diseases annually.
+                    It poses a high disease burden and significantly impacts the country's economic growth."</td>
+                    <td>"20 Lakh deaths are projected to occur in India due to AMR by the year 2050.
+                    Lack of national data on AMR of different pathogens, and appropriate surveillance mechanism."</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Lack of molecular diagnostic laboratory facilities along with indigenous and personalized genomics and bioinformatics pipeline for generation and analysis of data.</td>
+                </tr>
+            </table>
+            
+
         </section>
 
-        <section class="deaths"
-            style="height: 80px;color: white; font-size: 3rem; text-align: center;padding: 47px 0px;">
-            <div class="deaths">6M+ deaths worldwide due to microbial infections</div>
-        </section>
 
-        <section class="labinasuitcase" style="height: 1090px;background-color: white;">
-            <img src="LabInAKit.png" style="width: 100%;height: 800px;">
+
+        <section class="labinasuitcase" style="height: 1200px;background-color: rgb(255, 255, 255);">
+            <img src="LabInAKit.png" style="width: 100%;height: 900px;">
             <div class="suitcase">
                 <!-- <div style="font-family: 'Poppins';color: #000000;text-align: center;font-size: 3rem;">Lab in a suitcase</div> -->
                 <h1 style="text-align: center;color: #021a41;padding: 20px;">Lab in a suitcase</h1>
@@ -193,13 +217,13 @@
 
                 <p style="    font-family: 'Poppins', sans-serif;
                 margin: 0;
-                color: black;
-                ">There are two scenarios that will be realized during the workshop and
-                    both of them will cover the entire workflow as shown in Fig. 1. First scenario involves bringing the
-                    samples collected from different sites back to the laboratory while in the second scenario, we
-                    perform the entire workflow on-site using the envisaged lab-in-a-suitcase. This kit was designed and
-                    assembled by Prof. David Werner and his group at Newcastle University. One day of this workshop will
-                    include on-site visit with the proposed kit and conducting the entire workflow in-situ. </p>
+                color: black;text-align: justify;
+                ">The workshop will be divided into two scenarios, each of which will cover the whole workflow as
+                    depicted in the process below. The first scenario entails returning samples gathered from various
+                    locations to the lab, whereas the second scenario involves doing the complete workflow on-site using
+                    the envisaged lab-in-a-suitcase. This kit was designed and assembled by Prof. David Werner and his
+                    group at Newcastle University. One day of this workshop will include on-site visit with the proposed
+                    kit and conducting the entire workflow in-situ. </p>
 
                 <!-- <div class="columns8">
                     <div class="column01">
@@ -228,77 +252,63 @@
 
         </section>
 
-        <section class="labinasuitcase" style="height: 950px;background-color: #e0eff1;">
+        <section class="labinasuitcase" style="height: 90vh;background-color: #e0eff1;">
             <div class="suitcase">
                 <!-- <div style="font-family: 'Poppins';color: #000000;text-align: center;font-size: 3rem;">Lab in a suitcase</div> -->
                 <h1 style="text-align: center;color: #021a41;padding: 20px;">Process</h1>
             </div>
-            <center><img src="workflow.png" style="width: 80%;height: 800px; margin-top: 30px;"></center>
-            
+            <center><img src="workflow.png" style="width: 80%; margin-top: 30px;"></center>
 
-            
+
+
         </section>
 
 
 
-        <section class="sch" style="height:2900px; background-color: #ced1da; ">
+        <section class="sch" style="height:3000px; background-color: #ced1da; ">
             <div id="wrapper">
                 <div class="schedule" id="4">
-
                     <table id="form-Section">
-
-
-
-
-                        <br><br>
+                        <!-- Day 1 -->
                         <h2 class="dates">Day 1 - January 22nd, 2023</h2>
-
                         <table>
                             <tr>
                                 <th>Time</th>
                                 <th>Activity</th>
                                 <th>Location</th>
                             </tr>
-
                             <tr>
-                                <td rowspan="5">Afternoon </td>
-                                <td>11.30am </td>
-                                <td>Leave from hotel to AAWSA
-                                    Drinking water lab</td>
+                                <td>8:00 AM</td>
+                                <td>Breakfast</td>
+                                <td>Guest House/Restaurant/Hotel</td>
                             </tr>
-
                             <tr>
-
-                                <td>12:30 pm </td>
-                                <td>Lunch </td>
+                                <td>9:00 AM</td>
+                                <td>Introduction and traveling to different sample collection sites</td>
+                                <td>Stretches of Tawi river</td>
                             </tr>
-
                             <tr>
-
-                                <td>1:15 pm </td>
-                                <td>Lab safety Induction</td>
+                                <td>12:00 PM</td>
+                                <td>Lunch</td>
+                                <td>Guest House/Restaurant/Hotel</td>
                             </tr>
-
                             <tr>
-
-                                <td>2:00 pm </td>
-                                <td>Filtration (DNA extraction, faecal
-                                    coliform and streptococci)
-                                </td>
+                                <td>2:00 PM</td>
+                                <td>Filtration (DNA extraction, faecal coliform and streptococci)</td>
+                                <td>Biosciences Laboratory</td>
                             </tr>
-
-
                             <tr>
-
-                                <td>5:00 pm </td>
-                                <td>Return to hotel
-                                </td>
+                                <td>5:00 PM</td>
+                                <td>Return to accommodation</td>
+                                <td></td>
                             </tr>
-
+                            <tr>
+                                <td>7:00 PM</td>
+                                <td>Dinner</td>
+                                <td>Guest House/Restaurant/Hotel</td>
+                            </tr>
                         </table>
-
-                        <!--  Day-2 -->
-
+                        <!-- Day 2 -->
                         <h2 class="dates">Day 2 - January 23rd, 2023</h2>
                         <table>
                             <tr>
@@ -306,88 +316,53 @@
                                 <th>Activity</th>
                                 <th>Location</th>
                             </tr>
-
                             <tr>
-                                <td rowspan="5">Afternoon </td>
-                                <td>1:15 pm </td>
-                                <td>Library preparation: Set up 16S PCR
-                                </td>
+                                <td>8:00 AM</td>
+                                <td>Breakfast</td>
+                                <td>Guest House/Restaurant/Hotel</td>
                             </tr>
-
                             <tr>
-                                <td>3:00 pm </td>
-                                <td>Break
-
-                                </td>
+                                <td>9:00 AM</td>
+                                <td>Arrival and DNA extraction</td>
+                                <td>Biosciences Laboratory</td>
                             </tr>
-
                             <tr>
-                                <td>3:30 pm </td>
-                                <td>qPCR assay to quantify 16S gene
-
-                                </td>
+                                <td>10:30 AM</td>
+                                <td>DNA qualification and faecal coliform plate counting</td>
+                                <td>Biosciences Laboratory</td>
                             </tr>
-
                             <tr>
-                                <td>5:00 pm </td>
-                                <td>Return to hotel</td>
+                                <td>12:00 PM</td>
+                                <td>Lunch</td>
+                                <td>Guest House/Restaurant/Hotel</td>
                             </tr>
-
                             <tr>
-                                <td>5:00 pm </td>
-                                <td>Return to hotel
-                                </td>
+                                <td>2:00 PM</td>
+                                <td>Library preparation: Set up 16S PCR</td>
+                                <td>Biosciences Laboratory</td>
                             </tr>
-
                             <tr>
-                                <th>Time</th>
-                                <th>Activity</th>
-                                <th>Location</th>
+                                <td>3:00 PM</td>
+                                <td>Break</td>
+                                <td>Institute Canteen</td>
                             </tr>
-
                             <tr>
-
-                                <td rowspan="5">Morning </td>
-                                <td>8:00 am </td>
-                                <td>Leave from hotel to AAWSA
-                                    Drinking water lab
-                                </td>
+                                <td>3:30 PM</td>
+                                <td>qPCR assay to quantify 16S gene</td>
+                                <td>Biosciences Laboratory</td>
                             </tr>
-
-
                             <tr>
-                                <td>9:30 am </td>
-                                <td>DNA extraction
-                                </td>
+                                <td>5:00 PM</td>
+                                <td>Return to accommodation</td>
+                                <td></td>
                             </tr>
-
                             <tr>
-
-                                <td>11:00 am </td>
-                                <td>Break
-                                </td>
+                                <td>7:00 PM</td>
+                                <td>Dinner</td>
+                                <td>Guest House/Restaurant/Hotel</td>
                             </tr>
-
-                            <tr>
-
-                                <td>1:15 pm </td>
-                                <td>Lab safety Induction</td>
-                            </tr>
-
-
-
-                            <tr>
-
-                                <td>5:00 pm </td>
-                                <td>Return to hotel
-                                </td>
-                            </tr>
-
-
                         </table>
-
-                        <!-- Day-3 -->
-
+                        <!-- Day 3 -->
                         <h2 class="dates">Day 3 - January 24th, 2023</h2>
                         <table>
                             <tr>
@@ -395,263 +370,179 @@
                                 <th>Activity</th>
                                 <th>Location</th>
                             </tr>
-
                             <tr>
-                                <td rowspan="5">Afternoon </td>
-                                <td>1:15 pm </td>
-                                <td>Library preparation: Set up 16S PCR
-                                </td>
+                                <td>8:00 AM</td>
+                                <td>Breakfast</td>
+                                <td>Guest House/Restaurant/Hotel</td>
                             </tr>
-
                             <tr>
-                                <td>3:00 pm </td>
-                                <td>Break
-
-                                </td>
+                                <td>9:00 AM</td>
+                                <td>Library preparation: Library clean up, quantification, pooling calculation and
+                                    pooling and library loading</td>
+                                <td>Biosciences Laboratory</td>
                             </tr>
-
                             <tr>
-                                <td>3:30 pm </td>
-                                <td>qPCR assay to quantify 16S gene
-
-                                </td>
+                                <td>10:00 AM</td>
+                                <td>Tea and Coffee break</td>
+                                <td>Institute Canteen</td>
                             </tr>
-
                             <tr>
-                                <td>5:00 pm </td>
-                                <td>Return to hotel</td>
+                                <td>10:30 AM</td>
+                                <td>Streptococci plate count and preliminary data review</td>
+                                <td>Biosciences Laboratory</td>
                             </tr>
-
                             <tr>
-                                <td>5:00 pm </td>
-                                <td>Return to hotel
-                                </td>
+                                <td>12:00 PM</td>
+                                <td>Lunch</td>
+                                <td>Guest House/Restaurant/Hotel</td>
                             </tr>
-
                             <tr>
-                                <th>Time</th>
-                                <th>Activity</th>
-                                <th>Location</th>
+                                <td>2:00 PM</td>
+                                <td>Library preparation for Metagenomic study and Flow-cell loading practice</td>
+                                <td>Biosciences Laboratory</td>
                             </tr>
-
                             <tr>
-
-                                <td rowspan="5">Morning </td>
-                                <td>8:00 am </td>
-                                <td>Leave from hotel to AAWSA
-                                    Drinking water lab
-                                </td>
+                                <td>3:00 PM</td>
+                                <td>Break</td>
+                                <td>Institute Canteen</td>
                             </tr>
-
-
                             <tr>
-                                <td>9:30 am </td>
-                                <td>DNA extraction
-                                </td>
+                                <td>3:30 PM</td>
+                                <td>qPCR assay to quantify HF183 gene</td>
+                                <td>Biosciences Laboratory</td>
                             </tr>
-
                             <tr>
-
-                                <td>11:00 am </td>
-                                <td>Break
-                                </td>
+                                <td>5:00 PM</td>
+                                <td>Return to accommodation</td>
+                                <td></td>
                             </tr>
-
                             <tr>
-
-                                <td>1:15 pm </td>
-                                <td>Lab safety Induction</td>
+                                <td>7:00 PM</td>
+                                <td>Dinner</td>
+                                <td>Guest House/Restaurant/Hotel</td>
                             </tr>
-
-
-
-                            <tr>
-
-                                <td>5:00 pm </td>
-                                <td>Return to hotel
-                                </td>
-                            </tr>
-
-
                         </table>
 
-                        <!-- day-4 -->
-
+                        <!-- Day 4 -->
                         <h2 class="dates">Day 4 - January 25th, 2023</h2>
-
                         <table>
                             <tr>
                                 <th>Time</th>
                                 <th>Activity</th>
                                 <th>Location</th>
                             </tr>
-
                             <tr>
-                                <td rowspan="5">Afternoon </td>
-                                <td>1:15 pm </td>
-                                <td>Library preparation: Set up 16S PCR
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>3:00 pm </td>
-                                <td>Break
-
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>3:30 pm </td>
-                                <td>qPCR assay to quantify 16S gene
-
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>5:00 pm </td>
-                                <td>Return to hotel</td>
-                            </tr>
-
-                            <tr>
-                                <td>5:00 pm </td>
-                                <td>Return to hotel
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <th>Time</th>
-                                <th>Activity</th>
-                                <th>Location</th>
-                            </tr>
-
-                            <tr>
-                                <td rowspan="5">Morning </td>
-                                <td>8:00 am </td>
-                                <td>Leave from hotel to AAWSA
-                                    Drinking water lab
-                                </td>
+                                <td>8:00 AM</td>
+                                <td>Breakfast</td>
+                                <td>Guest House/Restaurant/Hotel</td>
                             </tr>
                             <tr>
-                                <td>9:30 am </td>
-                                <td>DNA extraction
-                                </td>
+                                <td>9:00 AM</td>
+                                <td>Processing of 16S data: Base-calling and EPI2ME 16S workflow</td>
+                                <td>Biosciences Laboratory</td>
                             </tr>
-
                             <tr>
-
-                                <td>11:00 am </td>
-                                <td>Break
-                                </td>
+                                <td>10:00 AM</td>
+                                <td>Tea and Coffee break</td>
+                                <td>Institute Canteen</td>
                             </tr>
-
                             <tr>
-                                <td>1:15 pm </td>
-                                <td>Lab safety Induction</td>
+                                <td>10:30 AM</td>
+                                <td>Introduction: 16S data analysis and interpretation</td>
+                                <td>Biosciences Laboratory</td>
                             </tr>
-
                             <tr>
-
-                                <td>5:00 pm </td>
-                                <td>Return to hotel
-                                </td>
+                                <td>12:00 PM</td>
+                                <td>Lunch</td>
+                                <td>Guest House/Restaurant/Hotel</td>
                             </tr>
-
-
+                            <tr>
+                                <td>2:00 PM</td>
+                                <td>Introduction: Multivariate data analysis and metagenomic analysis</td>
+                                <td>C3I Laboratory</td>
+                            </tr>
+                            <tr>
+                                <td>3:00 PM</td>
+                                <td>Break</td>
+                                <td>Institute Canteen</td>
+                            </tr>
+                            <tr>
+                                <td>3:30 PM</td>
+                                <td>Introduction: Quantitative microbial risk assessment</td>
+                                <td>Biosciences Laboratory</td>
+                            </tr>
+                            <tr>
+                                <td>5:00 PM</td>
+                                <td>Return to accommodation</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>7:00 PM</td>
+                                <td>Dinner</td>
+                                <td>Guest House/Restaurant/Hotel</td>
+                            </tr>
                         </table>
 
-                        <!-- Day-5 -->
 
-                        <h2 class="dates">Day 5 -January 26th, 2023</h2>
-
+                        <!-- Day 5 -->
+                        <h2 class="dates">Day 5 - January 26th, 2023</h2>
                         <table>
                             <tr>
                                 <th>Time</th>
                                 <th>Activity</th>
                                 <th>Location</th>
                             </tr>
-
                             <tr>
-                                <td rowspan="5">Afternoon </td>
-                                <td>1:15 pm </td>
-                                <td>Library preparation: Set up 16S PCR
-                                </td>
+                                <td>8:00 AM</td>
+                                <td>Breakfast</td>
+                                <td>Guest House/Restaurant/Hotel</td>
                             </tr>
-
                             <tr>
-                                <td>3:00 pm </td>
-                                <td>Break
-
-                                </td>
+                                <td>9:00 AM</td>
+                                <td>Symposium: Talks by Prof. David Werner, Dr. Sidharth Maheshwari, and other
+                                    researchers from IIT Jammu and Central government funded laboratories working in the
+                                    field of Water Quality monitoring</td>
+                                <td>Room 1-01</td>
                             </tr>
-
                             <tr>
-                                <td>3:30 pm </td>
-                                <td>qPCR assay to quantify 16S gene
-
-                                </td>
+                                <td>11:00 AM</td>
+                                <td>Tea and Coffee break</td>
+                                <td>Institute Canteen</td>
                             </tr>
-
                             <tr>
-                                <td>5:00 pm </td>
-                                <td>Return to hotel</td>
+                                <td>11:30 AM</td>
+                                <td>Symposium: Presentation of results obtained during the workshop</td>
+                                <td>Room 1-01</td>
                             </tr>
-
                             <tr>
-                                <td>5:00 pm </td>
-                                <td>Return to hotel
-                                </td>
+                                <td>12:30 PM</td>
+                                <td>Lunch</td>
+                                <td>Guest House/Restaurant/Hotel</td>
                             </tr>
-
                             <tr>
-                                <th>Time</th>
-                                <th>Activity</th>
-                                <th>Location</th>
+                                <td>2:30 PM</td>
+                                <td>Symposium: Research presentations (20 minutes each) by various researchers across
+                                    IIT Jammu and Newcastle University</td>
+                                <td>Room 1-01</td>
                             </tr>
-
                             <tr>
-
-                                <td rowspan="5">Morning </td>
-                                <td>8:00 am </td>
-                                <td>Leave from hotel to AAWSA
-                                    Drinking water lab
-                                </td>
+                                <td>5:00 PM</td>
+                                <td>Conclusion of workshop and return to accommodation</td>
+                                <td></td>
                             </tr>
-
-
                             <tr>
-                                <td>9:30 am </td>
-                                <td>DNA extraction
-                                </td>
+                                <td>7:00 PM</td>
+                                <td>Dinner</td>
+                                <td>Guest House/Restaurant/Hotel</td>
                             </tr>
-
-                            <tr>
-
-                                <td>11:00 am </td>
-                                <td>Break
-                                </td>
-                            </tr>
-
-                            <tr>
-
-                                <td>1:15 pm </td>
-                                <td>Lab safety Induction</td>
-                            </tr>
-
-
-
-                            <tr>
-
-                                <td>5:00 pm </td>
-                                <td>Return to hotel
-                                </td>
-                            </tr>
-
-
                         </table>
+
+
+                    </table>
                 </div>
             </div>
-
         </section>
+
         <section style="height:700px; margin-top: 0px; background-color: rgb(255, 255, 255);">
 
             <div class="speakersection" id="5">
@@ -670,15 +561,18 @@
                         <img src="Sidh_IEEEbio.jpg" alt="Loading">
 
                         <div class="intro">
-                            <h3>Sidhart Malhotra</h3>
-                            Assistant Professor Computer Science and Engineering <br>
+                            <h3>Sidhart Maheshwari</h3>
                             IIT Jammu
-                            <p>He completed his B.Tech in Electronics and Electrical Engineering at IIT Guwahati in
-                                2013. He joined Newcastle University as a PhD student in 2016. After completion of his
-                                PhD in 2021, he worked as Research Associate at Newcastle University till June 2023. He
-                                is looking towards solving real-world challenges such as improving water quality through
-                                molecular diagnostics that includes genome analysis and antimicrobial resistance
-                                surveillance. </p>
+                            <p style="text-align: justify;">Dr. Sidharth Maheshwari is working as an Assistant Professor
+                                in the department of
+                                Computer Science and Engineering at Indian Institute of Technology (IIT) Jammu since
+                                2023. He completed his B.Tech in Electronics and Electrical Engineering at IIT Guwahati
+                                in 2013. He joined Newcastle University as a PhD student in 2016. After completion of
+                                his PhD in 2021, he worked as Research Associate at Newcastle University till June 2023.
+                                His interests include using hardware/software co-design to mitigate computational and
+                                energy bottlenecks of Big Data applications. He is looking towards solving real-world
+                                challenges such as improving water quality through molecular diagnostics that includes
+                                genome analysis and antimicrobial resistance surveillance.</p>
                         </div>
                     </div>
 
@@ -687,13 +581,17 @@
 
                         <div class="intro">
                             <h3>David Werner</h3>
-                            Professor of environmental system modelling<br>
-                            Newcastle University, UK
-                            <p>He earned his PhD in Environmental Sciences at EPFL in Switzerland. His research group
-                                works towards ubiquitous genetics in water, sanitation, and hygiene (WASH) to achieve
-                                the United Nation’s Sustainable Development Goal 6: Clean water and sanitation for all.
-                                This includes the co-development and testing of a suitcase laboratory for molecular
-                                microbiology with colleagues in Africa, South America, and South Asia.
+                            <!-- Professor of environmental system modelling<br> -->
+                            Newcastle University, UK<br>
+                            <p style="text-align: justify;">Prof. David Werner is professor of environmental systems
+                                modelling at Newcastle
+                                University, UK. He earned his PhD in Environmental Sciences at EPFL in Switzerland. His
+                                research group works towards ubiquitous genetics in water, sanitation, and hygiene
+                                (WASH) to achieve the United Nation’s Sustainable Development Goal 6: Clean water and
+                                sanitation for all. This includes the co-development and testing of a suitcase
+                                laboratory for molecular microbiology with colleagues in Africa, South America, and
+                                South Asia. David enjoys doing fieldwork with his colleagues and students, and life-long
+                                learning about the wonders of nature and human follies.
                             </p>
                         </div>
                     </div>
@@ -702,14 +600,16 @@
 
                         <div class="intro">
                             <h3>Dr. Rixia Zan </h3>
-                            Research Associate in Molecular Microbiology <br>
-                            Newcastle University
-                            <p> She obtained her Bachelors degree in Environment Engineering from Tianjin Chengjian
-                                University in 2015. She completed her M.Sc. and PhD in Evironmental Engineering from
-                                Newcastle University between 2015 to 2023. During her PhD she developed and evaluated
-                                pilot-scale pollution attenuation permeable pavements for stormwater management.
-                                Currently, she is analyzing water quality through molecular microbiology with Prof.
-                                David Werner. </p>
+                            <!-- Research Associate in Molecular Microbiology <br> -->
+                            Newcastle University<br>
+                            <p style="text-align: justify;"> Dr. Rixia Zan is a Research Associate in Molecular
+                                Microbiology at Newcastle University
+                                since 2023. She obtained her Bachelors’ degree in Environment Engineering from Tianjin
+                                Chengjian University in 2015. She completed her M.Sc. and PhD in Environmental
+                                Engineering from Newcastle University between 2015 to 2023. During her PhD she developed
+                                and evaluated pilot-scale pollution attenuation permeable pavements for stormwater
+                                management. Currently, she is analyzing water quality through molecular microbiology
+                                with Prof. David Werner.</p>
                         </div>
                     </div>
                 </div>
@@ -828,7 +728,8 @@
                     transition: all 0.5s linear;
                     height: 110px;
                     width: 307px;
-                    padding: 17px 10px 0px 130px;">
+                    padding: 17px 10px 0px 130px;
+                    ">
                 </div>
             </div>
 
@@ -836,16 +737,16 @@
 
         <section class="about-labinakat" style="height: 0px;background-color: #ffe100;"></section>
 
-        <footer class="footer">
+        <footer class="footer" id="7">
             <div class="footer-container">
                 <div class="footer-row">
                     <div class="footer-col">
                         <h4>Contact Us</h4>
                         <ul>
                             <li><a href="#">Sidharth Maheshwari</a></li>
-                            <li><a href="#">Address</a></li>
-                            <li><a href="#">Email</a></li>
-                            <li><a href="#">+91 8888888888</a></li>
+                            <li><a href="#">IIT Jammu, Jammu, India, 181221</a></li>
+                            <li><a href="#">sidharth.maheshwari@<br>iitjammu.ac.in</a></li>
+                            <li><a href="#"></a></li>
                         </ul>
                     </div>
                     <div class="footer-col">
